@@ -2,7 +2,6 @@ import urbanStyle from "../assets/img-projects/GuitarApp.png";
 import imgNote from "../assets/img-projects/SeguimientoPacientes.png";
 import ReactEcommerce from "../assets/img-projects/DevTreeApp.png";
 import SriEnLinea from "../assets/img-projects/CarruselSri2.png";
-import ReactEcommerce from "../assets/img-projects/ecommers.jpg";
 export const proyectos = [
   {
     titulo: "DevTree app",
