@@ -16,7 +16,6 @@
         { name: "CSS", icon: "css3" },
         { name: "JavaScript", icon: "javascript" },
         { name: "TypeScript", icon: "typescript" },
-        { name: "Python", icon: "python" },
         { name: "React", icon: "react" },
         { name: "Astro", icon: "astro" },
         { name: "Next.js", icon: "nextjs" },
@@ -24,6 +23,8 @@
         { name: "Node.js", icon: "nodejs" },
         { name: "Express", icon: "express" },
         { name: "Git", icon: "git" },
+        { name: "Java", icon: "java" },
+        { name: "Oracle", icon: "oracle" },
       ].map((skill) => (
         <div class="relative group">
           <div class="absolute inset-0 -z-10 rounded-lg  blur-3xl opacity-0 transition-opacity group-hover:opacity-100" />
@@ -34,7 +35,9 @@
               alt={skill.name}
               class="w-12 h-12"
             />
-            <p class="mt-2 text-white text-lg font-semibold drop-shadow-[1px_1px_0_#7836cf]">{skill.name}</p>
+            <p class="mt-2 text-white text-lg font-semibold drop-shadow-[1px_1px_0_#7836cf]">
+              {skill.name}
+            </p>
           </div>
         </div>
       ))

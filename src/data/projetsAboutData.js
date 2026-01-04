@@ -1,35 +1,36 @@
-import urbanStyle from "../assets/img-projects/urbanStyle.png";
-import imgNote from "../assets/img-projects/note-app.png";
+import urbanStyle from "../assets/img-projects/GuitarApp.png";
+import imgNote from "../assets/img-projects/SeguimientoPacientes.png";
+import ReactEcommerce from "../assets/img-projects/DevTreeApp.png";
+import SriEnLinea from "../assets/img-projects/CarruselSri2.png";
 import ReactEcommerce from "../assets/img-projects/ecommers.jpg";
-
 export const proyectos = [
   {
-    titulo: "React Tiendita",
+    titulo: "DevTree app",
     imagen: ReactEcommerce.src,
     tecnologias: ["React", "Tailwind", "Node.js" ,"Express", "MongoDB", "jwt"],
-    demo: "https://react-e-commerce-three-phi.vercel.app",
+    demo: "https://devtree-jorge.netlify.app/",
+    codigo: "https://github.com/crashe24/devtree-backend",
+  },
+  {
+    titulo: "Guitar App",
+    descripcion: "Aplicacion para venta de guitarras.",
+    imagen: urbanStyle.src,
+    tecnologias: ["React", "Tailwind", "Express", "MongoDB"],
+     demo: "https://react-e-commerce-three-phi.vercel.app",
     codigo: "https://github.com/Lautaro-R-collins/React-E-commerce.git",
   },
   {
-    titulo: "E-commerce Urban Style",
-    descripcion: "Descripción breve del proyecto 1.",
-    imagen: urbanStyle.src,
-    tecnologias: ["React", "Tailwind", "Firebase"],
-    demo: "https://proyecto-final-rodriguez-sable.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
-  },
-  {
-    titulo: "App organizacion",
+    titulo: "Seguimiento de Pacientes Veterinaria",
     imagen: imgNote.src,
     tecnologias: ["React", "Tailwind", "Express", "MongoDB"],
-    demo: "https://front-react-todo.onrender.com",
-    codigo: "https://github.com/Lautaro-R-collins/Front-react-todo",
+    demo: "https://frosty-dijkstra-53965b.netlify.app/",
+    codigo: "https://github.com/crashe24/seguimiento-pacientes-app",
   },
   {
-    titulo: "API REST para Ecommerce",
-    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
-    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
-    demo: "https://react-e-commerce-three-phi.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ApiRest-Ecommerce.git",
+    titulo: "Boton de pago de SRI",
+    imagen: SriEnLinea.src,
+    tecnologias: ["Java", "JSF", "EJB", "Hibernate", "Oracle"],
+    demo: "https://srienlinea.sri.gob.ec/sri-en-linea/inicio/NAT",
+    codigo: "",
   },
 ];
